@@ -9,8 +9,8 @@ import json
 from typing import Dict, List, Any
 
 # Import project components
-from src.data_processing.data_connector import DataConnectorFactory
-from src.portfolio_management.optimizer import PortfolioOptimizer
+from data_processing.data_connector import DataConnectorFactory
+from portfolio_management.optimizer import PortfolioOptimizer
 from src.risk_assessment.advanced_risk import AdvancedRiskAssessment
 
 # Page configuration
@@ -1105,6 +1105,6 @@ elif page == "AI Analysis":
 
 ### 7. Set Up Continuous Integration with GitHub Actions
 
-Create a GitHub Actions workflow file:
+#Create a GitHub Actions workflow file:
 
-**.github/workflows/ci.yml**:
+#**.github/workflows/ci.yml**:

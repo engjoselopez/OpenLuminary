@@ -350,21 +350,21 @@ class AdvancedRiskAssessment:
         
         return results
     
-    def _estimate_periods_per_year(self, returns: pd.DataFrame) -> int:
+    #def _estimate_periods_per_year(self, returns: pd.DataFrame) -> int:
         """
-        Estimate the number of periods per year from the returns data.
+     #   Estimate the number of periods per year from the returns data.
         
-        Args:
+      #  Args:
             returns: DataFrame of asset returns
             
         Returns:
             Estimated number of periods per year
         """
-        if returns.index.freq:
+       # if returns.index.freq:
             # If the DataFrame has a frequency set
-            freq = returns.index.freq
-            if freq.name == 'D':
-                return 252  # Trading days
-            elif freq.name == 'W':
-                return 52  # Weeks
-            elif freq
+            
+        #    if freq.name == 'D':
+          #      return 252  # Trading days
+         #   elif freq.name == 'W':
+             
+            #elif freq
